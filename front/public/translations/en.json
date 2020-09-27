@@ -1,6 +1,20 @@
 {
     "translation": {
-        "app_name": "μveez",
+        "app_name": "Arab Blockchain Hub ",
+        "menu_home": "Home",
+        "menu_search": "Search ",
+        "menu_search-placeholder": "Search here",
+        "menu_activity": "Activity",
+        "menu_contactUs": "Contact Us ",
+        "menu_contribution": "Arab Contributions",
+        "menu_researchHub": "Arab Research Hub ",
+        "menu_press": "Press ",
+        "menu_about": "About ",
+        "menu_advisory": "Advisory ",
+        "menu_partner": "Partners",
+        "menu_subscribe": "Subscribe",
+        "menu_join": "Join us",
+      
         "a_react_demo": "a React i18n demo",
         "directors": "Directors",
         "movies": "Movies",

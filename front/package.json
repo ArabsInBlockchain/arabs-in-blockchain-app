@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "^4.0.0",
     "i18next": "^10.3.0",
+    "mdbreact": "^4.27.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",

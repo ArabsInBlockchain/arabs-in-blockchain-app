@@ -3,7 +3,7 @@ export const defaultLocale = "en"
 export const locales = [
     {
         code: "ar",
-        name: "عربي",
+        name: "العربية",
         dir: "rtl"
     },
     {
