@@ -1,17 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+
 import {
-    Nav,
-    Navbar,
-    NavItem,
-    Collapse,
-    DropdownMenu,
-    NavbarToggler,
-    DropdownToggle,
-    UncontrolledDropdown,
-} from 'reactstrap'
-import {
-    MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
+    MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem,  MDBNavbarToggler, MDBCollapse, MDBFormInline,
     MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 } from "mdbreact";
 import logo from '../logo.svg'
@@ -32,7 +23,7 @@ class AppNavbar extends Component {
 
     render() {
         return (
-       
+
             <MDBNavbar color="blue-gradient" className="font-weight-bold py-4 px-2 mb-4" dark expand="md">
             <MDBNavbarBrand>
                           <LocalizedLink to="/" className="navbar-brand">
@@ -43,7 +34,7 @@ class AppNavbar extends Component {
                                   className="d-inline-block align-top"
                                   alt={t('app_name')}
                               />
-      
+
                           </LocalizedLink>
                           <strong className="white-text">  {t('app_name')}</strong>
                       </MDBNavbarBrand>
@@ -80,9 +71,9 @@ class AppNavbar extends Component {
                                       {t('menu_researchHub')}
                     </LocalizedLink>
                  </MDBNavItem>
-  
-                 
-              
+
+
+
                 </MDBNavbarNav>
                 <MDBNavbarNav right>
                 <MDBNavItem >
@@ -120,7 +111,7 @@ class AppNavbar extends Component {
                   <MDBNavItem>
                                   <MDBDropdown>
                                       <MDBDropdownToggle nav caret>
-      
+
                                           <span
                                               role="img"
                                               aria-label="globe"
@@ -128,14 +119,15 @@ class AppNavbar extends Component {
                                           >
                                               🌐
                                       </span>
-      
-                                          {t('language')}                </MDBDropdownToggle>
+
+                                          {/* {t('language')} */}
+                                                          </MDBDropdownToggle>
                                       <MDBDropdownMenu>
                                           {locales.map(locale => (
-                                              <MDBDropdownItem>
-      
+                                              <MDBDropdownItem key={locale.code}>
+
                                                   <Link
-                                                      key={locale.code}
+
                                                       to={`/${locale.code}`}
                                                       className="dropdown-item"
                                                   >
@@ -149,7 +141,7 @@ class AppNavbar extends Component {
                 </MDBNavbarNav>
               </MDBCollapse>
             </MDBNavbar>
-       
+
           );
         }
 }

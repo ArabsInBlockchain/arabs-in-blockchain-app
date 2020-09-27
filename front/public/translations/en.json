@@ -1,6 +1,8 @@
 {
     "translation": {
         "app_name": "Arab Blockchain Hub ",
+        "more": "More",
+
         "menu_home": "Home",
         "menu_search": "Search ",
         "menu_search-placeholder": "Search here",
@@ -14,7 +16,24 @@
         "menu_partner": "Partners",
         "menu_subscribe": "Subscribe",
         "menu_join": "Join us",
-      
+        
+        "cover_motivation": "The motivation behind",
+        "cover_motivation_desc": "An umbrella for all Arab in the blockchain",
+        "cover_motivation_details": "We are 22 Arb countries talking the same language and share lots of history, traditional & customs. The blockchain technology in the MENA region is on its early stage and our community is growing up with lots of diversity from one country to another. It would be so beneficial to work as one community rather than working individually and reinvent the wheel in each country",
+
+
+
+
+        "activity_webinar": "Webinars",
+         "activity_title": " Hub's Activities",
+         "activity_hack": "Hackathons",
+        "activity_mentorship": "mentorship program",
+        "activity_events": "Events",
+
+        "team_title": " Members",
+
+
+
         "a_react_demo": "a React i18n demo",
         "directors": "Directors",
         "movies": "Movies",
@@ -28,6 +47,6 @@
         "quote_year": "{{date, year:numeric}}",
         "featured_movies": "Featured Movies",
         "directed_by": "Directed by {{director}}",
-        "footer_copy": "This demo was made by <a href=\"{{author_url}}\">Mohammad Ashour</a> with <a href=\"{{react_url}}\">React</a> and is released under the <a href=\"{{license_url}}\">MIT license</a>. It was made for a <a href=\"{{article_url}}\">PhraseApp blog article.</a> Images and synopses are copyright of their respective owners, and were acquired from the IMDB and the Dubai Film Festival websites."
+        "footer_copyright": "Copyright"
     }   
 }

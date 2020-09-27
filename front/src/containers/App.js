@@ -12,7 +12,7 @@ import AppNavbar from '../components/AppNavbar'
 import AppFooter from '../components/AppFooter'
 
 const App = props => (
-    <div style={{paddingTop: "80px"}}>
+         <div className='flyout' style={{paddingTop: "80px"}}>
         <Router>
             <Localizer>
                 {props.uiTranslationsLoaded &&

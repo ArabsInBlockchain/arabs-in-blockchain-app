@@ -1,6 +1,8 @@
 {
     "translation": {
         "app_name": "مركز البلوك تشين العربي",
+        "more": "المزيد",
+
         "menu_home": "الرئيسية",
         "menu_search": "بحث ",
         "menu_search-placeholder": "ابحث هنا",
@@ -14,6 +16,30 @@
         "menu_partner": "شركاء النجاح",
         "menu_subscribe": "تابعنا",
         "menu_join": "اشترك معنا",
+        "activity_webinar": "ندوات عبر الإنترنت",
+        "activity_hack": "هاكاثون",
+        "activity_mentorship": "برنامج الإرشاد",
+        "activity_events": "فاعليات",
+        "activity_title": " الفاعليات",
+        
+        
+        "team_title": " اﻻعضاء",
+
+        
+        
+        
+          
+        "cover_motivation": "The motivation behind",
+        "cover_motivation_desc": "مظلة لكل العرب فى تكنولوجيا البلوك تشين",
+        "cover_motivation_details": "نحن ٢٢  دولة عربية؛ نتحدث نفس اللغة ونتشارك فى الكثير من التقاليد والعادات واﻻحداث التاريخية. لا تزال تقنية البلوك تشين في منطقة الشرق الأوسط وشمال إفريقيا في مراحلها الأولى ، ء ونموها مختلف من بلد لآخر.لذا  سيكون من المفيد جدًا العمل كمجتمع واحد بدلاً من العمل بشكل فردي وإعادة اختراع العجلة في كل بلد",
+
+
+
+
+        
+        
+        
+        
         "a_react_demo": "عرض تدويل React",
         "directors": "مخرجين",
         "movies": "أفلام",
@@ -27,6 +53,6 @@
         "quote_year": "{{date, year:numeric}}",
         "featured_movies": "أبرز الأفلام",
         "directed_by": "إخراج {{director}}",
-        "footer_copy": "هذا التطبيق هو عرض من صنع <a href=\"{{author_url}}\">محمد عاشور</a> و منشور تحت <a href=\"{{license_url}}\">رخصة ام.آي.تي.</a> و قد بني هذا العرض ليرفق <a href=\"{{article_url}}\">مقالة علي مدونة PhraseApp</a>. حقوق النشر لدى الصور و ملخصات الأفلام هي ملك أصحابها، و تم الحصول عليها من مواقع IMDB و مهرجان دبي السينمائي الدولي."
+        "footer_copyright": "حقوق النشر"
     }   
 }
