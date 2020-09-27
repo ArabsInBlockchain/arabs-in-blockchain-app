@@ -10,11 +10,6 @@ export const locales = [
         code: "en",
         name: "English",
         dir: "ltr"
-    },
-    {
-        code: "fr",
-        name: "Français",
-        dir: "ltr"
     }
 ]
 
