@@ -20,13 +20,15 @@ class ActivityList extends React.Component {
 
   render() {
     return (
-      <MDBRow>
-      <MDBCol md='12' className='mt-4'>
+      <MDBRow>  
+
+      <MDBCol md='12' className='mt-4'>  
+                  <hr className='my-5' />
+
         <h2 className='text-center my-5 font-weight-bold'>
          {t('activity_title')}
         </h2>
  
-        <hr className='my-5' />
 
         <MDBRow id='categories'>
           <MDBCol md='6'>
