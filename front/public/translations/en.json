@@ -1,7 +1,10 @@
 {
     "translation": {
-        "app_name": "Arab Blockchain Hub ",
+        "app_name": "Arabs in Blockchain ",
         "more": "More",
+
+        "menu_service": "Service",
+        "menu_rec_activity": "Recent Activities ",
 
         "menu_home": "Home",
         "menu_search": "Search ",

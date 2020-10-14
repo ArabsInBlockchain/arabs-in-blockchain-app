@@ -1,12 +1,14 @@
 {
     "translation": {
-        "app_name": "مركز البلوك تشين العربي",
+        "app_name": "بلوكتشين بالعربى",
         "more": "المزيد",
+        "menu_service": "خدماتنا",
 
         "menu_home": "الرئيسية",
         "menu_search": "بحث ",
         "menu_search-placeholder": "ابحث هنا",
         "menu_activity": "اﻻنشطة",
+        "menu_rec_activity": "اﻻنشطة الحالية ",
         "menu_contactUs": "اتصل بنا",
         "menu_contribution": "اﻻسهامات العربية",
         "menu_researchHub": "مركز اﻻبحاث العربي",
