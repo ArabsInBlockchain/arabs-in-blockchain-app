@@ -1,5 +1,6 @@
 {
-  "name": "front",
+  "name": "arabs_in_blockchain",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

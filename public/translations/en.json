@@ -5,6 +5,7 @@
 
         "menu_service": "Service",
         "menu_rec_activity": "Recent Activities ",
+        "menu_rec_activity_desc": "Recent activities run through us and our community. ",
 
         "menu_home": "Home",
         "menu_search": "Search ",
@@ -30,26 +31,45 @@
         "activity_webinar": "Webinars",
          "activity_title": " Hub's Activities",
          "activity_hack": "Hackathons",
+         "activity_advisory": "Advisory",
+         "activity_content": "Arabic content",
         "activity_mentorship": "mentorship program",
         "activity_events": "Events",
+          "activity_advisory_details": "provide advisory service from Arab experts",
+         "activity_content_details": "Support the Arabic content( videos, articles, Tutorials )",
+        "activity_mentorship_details": "provide mentorship program to support teams that build blockchain projects ",
+        "activity_events_details": "Organize events ( webinars, hackathons , meetups , conferences ) in Arabic to mitigate the language barrier and increase the blockchain awareness in the Arab communities",
 
         "team_title": " Members",
 
 
 
-        "a_react_demo": "a React i18n demo",
-        "directors": "Directors",
-        "movies": "Movies",
-        "language": "Language",
-        "published_on": "Published on {{date, year:numeric;month:long}}",
-        "published_on_date_only": "{{date, year:numeric;month:long}}",
-        "featured_director": "Featured Director",
-        "featured_director_plural": "Featured Directors",
-        "image_of_director": "Image of {{director}}",
-        "quote_of_the_day": "Quote of the day",
-        "quote_year": "{{date, year:numeric}}",
-        "featured_movies": "Featured Movies",
-        "directed_by": "Directed by {{director}}",
+        "landing_keep_in_touch": "Contact us",
+        "landing_keep_in_touch_details": "If you want to contribute, don't hesitate to reach out",
+        "landing_keep_in_touch_name": "Name",
+        "landing_keep_in_touch_email": "Email",
+        "landing_keep_in_touch_message": "Sunject",
+        "landing_keep_in_touch_message_pholder":"Tell us your thoughts and feelings...",
+        "landing_keep_in_touch_message_send": "Send Message",
+
+        "team": "Team",
+
+        "team_eman": "Eman Herawy",
+        "team_eman_position": "FOUNDER",
+        "team_eman_details": "Blockchain full stack developer . Mentor & Reviewer @Udacity, Devcon 5 scholar alumni @ethereum foundation,Truffle University alumni & MSc in Cloud computing networks.",
+        
+        "rec_activity_webinar": "Webinars ",
+        "rec_activity_webinar_name": "The open doors",
+        "rec_activity_webinar_desc": "Series of webinars to explain blockchain by use cases for Arabs. It comes in two flavours; explaining blockchain from business perspective as well as technical perspective to provide full overview of blockchain and help community to grow faster.        ",
+        "rec_activity_prog": "Program",
+        "rec_activity_prog_name": "One to One mentorship program",
+        "rec_activity_prog_desc": "Program for startups, students who are working on blockchain projects and need some guidance.",
+        "rec_activity_content": "Support Arabic content",
+        "rec_activity_content_name": "Ethereum Translation program",
+        "rec_activity_content_desc": "An initiative to make Ethereum.org accessible to everyone, regardless of their nationality or language. Join our translation community to make this vision a reality!",
+        "rec_activity_by": "by",
+       "language": "Language",
+     
         "footer_copyright": "Copyright"
     }   
 }

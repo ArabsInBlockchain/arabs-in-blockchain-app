@@ -1,6 +1,6 @@
 {
     "translation": {
-        "app_name": "بلوكتشين بالعربى",
+        "app_name": "العرب فى البلوك تشين",
         "more": "المزيد",
         "menu_service": "خدماتنا",
 
@@ -8,7 +8,9 @@
         "menu_search": "بحث ",
         "menu_search-placeholder": "ابحث هنا",
         "menu_activity": "اﻻنشطة",
-        "menu_rec_activity": "اﻻنشطة الحالية ",
+        "menu_rec_activity": "احدث اﻻنشطة",
+        "menu_rec_activity_desc": "احدث اﻻنشطة التى تجرى بواسطتنا او بواسطة  اى من مقدمى المحتوى العربى",
+
         "menu_contactUs": "اتصل بنا",
         "menu_contribution": "اﻻسهامات العربية",
         "menu_researchHub": "مركز اﻻبحاث العربي",
@@ -21,9 +23,14 @@
         "activity_webinar": "ندوات عبر الإنترنت",
         "activity_hack": "هاكاثون",
         "activity_mentorship": "برنامج الإرشاد",
+        "activity_advisory": "استشارات",
+
         "activity_events": "فاعليات",
         "activity_title": " الفاعليات",
-        
+        "activity_advisory_details": "تقديم الخدمات الاستشارية من الخبراء العرب",
+        "activity_content_details": "دعم المحتوى العربي (فيديوهات ، مقالات ، دروس)",
+       "activity_mentorship_details": "تقديم برنامج إرشادي لدعم الفرق التي تبني مشاريع بتكنولوجيا البلوك تشين",
+       "activity_events_details": "تنظيم الأحداث (ندوات عبر الإنترنت ، وهاكاثون ، ولقاءات ، ومؤتمرات) باللغة العربية للتخفيف من حاجز اللغة وزيادة الوعي بالبلوك تشين في المجتمعات العربية",
         
         "team_title": " اﻻعضاء",
 
@@ -38,23 +45,32 @@
 
 
 
+        "landing_keep_in_touch": "راسلنا",
+        "landing_keep_in_touch_details": "إذا كنت ترغب في المساهمة ، فلا تتردد في التواصل معنا",
+        "landing_keep_in_touch_name": "اﻻسم",
+       "landing_keep_in_touch_email": "البريد اﻹلكتروني",
+       "landing_keep_in_touch_message": "موضوع الرسالة",
+       "landing_keep_in_touch_message_pholder":"أخبرنا بأفكارك ومشاعرك ...",
+       "landing_keep_in_touch_message_send": "أرسل الرسالة",
+          
+       "team": "فريق العمل",
+       "team_eman": "إيمان الهراوي",
+       "team_eman_position": "مؤسس",
+       "team_eman_details": "Blockchain full stack developer . Mentor & Reviewer @Udacity, Devcon 5 scholar alumni @ethereum foundation,Truffle University alumni & MSc in Cloud computing networks.",
+     
+       "rec_activity_webinar": "ندوات عبر الإنترنت",
+       "rec_activity_webinar_name": "الأبواب المفتوحة",
+        "rec_activity_webinar_desc": "سلسلة من الندوات عبر الإنترنت لشرح البلوك تشين من خلال حالات الاستخدام للعرب. تقدم على طريقتين؛ شرح البلوك تشين من منظور الأعمال ومن المنظور التقني لتقديم نظرة عامة كاملة عن البلوك تشين ومساعدة المجتمع على النمو بشكل أسرع.        ",
+        "rec_activity_prog": "البارمج",
+        "rec_activity_prog_name": "برنامج الإرشاد الفردي",
+        "rec_activity_prog_desc": "برنامج للشركات الناشئة والطلاب الذين يعملون في مشاريع البلوك تشين ويحتاجون إلى بعض التوجيه.",
+        "rec_activity_content": "دعم المحتوي العربي",
+        "rec_activity_content_name": "برنامج ترجمة ايثريوم",
+        "rec_activity_content_desc": "مبادرة لجعل Ethereum.org في متناول الجميع ، بغض النظر عن جنسيتهم أو لغتهم. انضم إلى مجتمع الترجمة الخاص بنا لجعل هذه الرؤية حقيقة واقعة!",
+        "rec_activity_by": "بواسطة",
         
-        
-        
-        
-        "a_react_demo": "عرض تدويل React",
-        "directors": "مخرجين",
-        "movies": "أفلام",
         "language": "اللغة",
-        "featured_director": "أبرز المخرجون",
-        "featured_director_plural": "أبرز المخرجون",
-        "published_on": "نشر في {{date, year:numeric;month:long}}",
-        "published_on_date_only": "{{date, year:numeric;month:long}}",
-        "image_of_director": "صورة {{director}}",
-        "quote_of_the_day": "مقولة اليوم",
-        "quote_year": "{{date, year:numeric}}",
-        "featured_movies": "أبرز الأفلام",
-        "directed_by": "إخراج {{director}}",
+   
         "footer_copyright": "حقوق النشر"
     }   
 }

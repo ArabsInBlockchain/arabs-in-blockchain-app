@@ -2,23 +2,25 @@ import React from "react";
 import {  MDBRow, MDBCol, MDBMask, MDBIcon, MDBView, MDBBtn } from "mdbreact";
 import { t } from '../services/i18n'
 import { locales } from '../config/i18n'
+import  mentorShipPic from '../assets/img/consult.gif' 
+ import  WebinarShipPic from '../assets/img/bony.gif' 
 const Activities = () => {
   return (
-  <React.Fragment>
+  <div className="container">
 
 <hr className='my-5' />
         <h2 className="h1-responsive font-weight-bold text-center my-5">
         {t('menu_rec_activity')}
         </h2>
         <p className="text-center w-responsive mx-auto mb-5">
-         Recent activities run through us and our community. 
+        {t('menu_rec_activity_desc')}
         </p>
         <MDBRow>
           <MDBCol lg="5">
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"
-                src="https://mdbootstrap.com/img/Photos/Others/img (28).jpg"
+                src={WebinarShipPic}
                 alt=""
               />
               <a href="#!">
@@ -29,18 +31,20 @@ const Activities = () => {
           <MDBCol lg="7">
             <a href="#!" className="green-text">
               <h6 className="font-weight-bold mb-3">
-                <MDBIcon icon="suitcase" className="pr-2" />
-                Webinars
+                <MDBIcon icon="seedling" className="pr-2" />
+                {t('rec_activity_webinar')}
               </h6>
             </a>
             <h3 className="font-weight-bold mb-3 p-0">
-              <strong>Blockchain webinar series</strong>
+              <strong>                {t('rec_activity_webinar_name')}
+</strong>
             </h3>
             <p>
-            Series of webinars to explain blockchain by use cases for  Arabs. It comes in two flavours; explaining blockchain from business perspective as well as technical perspective to provide full overview of blockchain and help community to grow faster.  
+            {t('rec_activity_webinar_desc')}
             </p>
             <p>
-              by
+            {t('rec_activity_by')}
+
             <span>  <a href="https://www.linkedin.com/in/emanherawy/">
                 <strong>Eman Herawy
                 </strong>
@@ -60,7 +64,8 @@ const Activities = () => {
               href="https://docs.google.com/document/d/1DeuKRszKv6fsQvhV7tuUGbWKG38yxwa0gvrzKQba9CM/edit?usp=sharing"
               className="mb-lg-0 mb-4 waves-light"
             > 
-                 Read more
+                                 {t('more')}
+
            
             </MDBBtn>
           </MDBCol>
@@ -70,31 +75,36 @@ const Activities = () => {
           <MDBCol lg="7">
             <a href="#!" className="pink-text">
               <h6 className="font-weight-bold mb-3">
-                <MDBIcon icon="image" className="pr-2" />
-                Programs
+                <MDBIcon icon="seedling" className="pr-2" />
+                {t('rec_activity_prog')}
+
               </h6>
             </a>
             <h3 className="font-weight-bold mb-3 p-0">
-              <strong>One to One mentorship program</strong>
+              <strong>                {t('rec_activity_prog_name')}
+</strong>
             </h3>
             <p>
-             Program for startups, students who are working on blockchain projects and need some guidance. 
+            {t('rec_activity_prog_desc')}
+
             </p>
             <p>
-              by
+            {t('rec_activity_by')}
+
               <a href="https://www.linkedin.com/in/emanherawy/">
                 <strong>Eman Herawy
                 </strong>
               </a>
             </p>
             <MDBBtn color="indigo" size="md" className="waves-light ">
-              Read more
+            {t('more')}
+
             </MDBBtn></MDBCol>
           <MDBCol lg="5">
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"
-                src="https://mdbootstrap.com/img/Photos/Others/img%20(34).jpg"
+                src={mentorShipPic}
                 alt=""
               />
               <a href="#!">
@@ -120,32 +130,37 @@ const Activities = () => {
           <MDBCol lg="7">
             <a href="#!" className="indigo-text">
               <h6 className="font-weight-bold mb-3">
-                <MDBIcon icon="suitcase" className="pr-2" />
-                Arabic Contents
+                <MDBIcon icon="globe" className="pr-2" />
+                { t('rec_activity_content')}
+
               </h6>
             </a>
             <h3 className="font-weight-bold mb-3 p-0">
-              <strong>Ethereum Translation program</strong>
+              <strong>                {t('rec_activity_content_name')}
+</strong>
             </h3>
             <p>
-            An initiative to make Ethereum.org accessible to everyone, regardless of their nationality or language. Join our translation community to make this vision a reality!
+            {t('rec_activity_content_desc')}
 
             </p>
             <p>
-              by
+            {t('rec_activity_by')}
+
               <a href="https://crowdin.com/project/ethereumfoundation/activity_stream">
-                <strong>The Community
+                <strong>                {t('rec_activity_community')}
+The Community
                 </strong>
               </a>
             </p>
             <MDBBtn color="indigo" size="md" className="waves-light " href="https://ethereum.org/en/contributing/translation-program/">
-              Read more
+            {t('more')}
+
             </MDBBtn>
           </MDBCol>
         </MDBRow>
      
       
-        </React.Fragment>
+        </div>
   );
 }
 

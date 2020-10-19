@@ -1,95 +1,153 @@
 import React from "react";
+import { MDBMask,MDBView,MDBBtn,MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBCardTitle, MDBCardImage, MDBCardBody, MDBCard } from "mdbreact";
 import LocalizedLink from './LocalizedLink'
 import { t } from '../services/i18n';
+import emanPic from '../assets/img/EmanInHongKong.jpg'
 const Team = () => {
     return (
-       
-  
-            <div className="row">
-                 
-              <div className="col-lg-12 col-md-12 mb-lg-0 mb-5">
-              <h2 className='text-center my-5 font-weight-bold'>
-         {t('team_title')}
+      <div className="container">
+
+          <MDBMask className='white-text gradient'/>
+      
+     
+        <h2 className="h1-responsive font-weight-bold text-center my-5">
+        {t('team')}
         </h2>
- 
-        <hr className='my-5' />
-                  </div>
-              <div className="col-lg-3 col-md-6 mb-lg-0 mb-5">
-                <div className="avatar mx-auto">
-                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" className="rounded-circle z-depth-1" alt="Sample avatar" />
-                </div>
-                <h5 className="font-weight-bold mt-4 mb-3">Anna Williams</h5>
-                <p className="text-uppercase blue-text"><strong>Graphic designer</strong></p>
-                <p className="grey-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci sed
-                  quia non numquam modi tempora eius.</p>
-                <ul className="list-unstyled mb-0">
-                  <a className="p-2 fa-lg fb-ic">
-                    <i className="fab fa-facebook-f blue-text"> </i>
-                  </a>
-                  <a className="p-2 fa-lg tw-ic">
-                    <i className="fab fa-twitter blue-text"> </i>
-                  </a>
-                  <a className="p-2 fa-lg ins-ic">
-                    <i className="fab fa-instagram blue-text"> </i>
-                  </a>
-                </ul>
-              </div>
-              <div className="col-lg-3 col-md-6 mb-lg-0 mb-5">
-                <div className="avatar mx-auto">
-                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" className="rounded-circle z-depth-1" alt="Sample avatar" />
-                </div>
-                <h5 className="font-weight-bold mt-4 mb-3">John Doe</h5>
-                <p className="text-uppercase blue-text"><strong>Web developer</strong></p>
-                <p className="grey-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem ipsa accusantium doloremque
-                  rem laudantium totam aperiam.</p>
-                <ul className="list-unstyled mb-0">
-                  <a className="p-2 fa-lg fb-ic">
-                    <i className="fab fa-facebook-f blue-text"> </i>
-                  </a>
-                  <a className="p-2 fa-lg ins-ic">
-                    <i className="fab fa-instagram blue-text"> </i>
-                  </a>
-                </ul>
-              </div>
-              <div className="col-lg-3 col-md-6 mb-md-0 mb-5">
-                <div className="avatar mx-auto">
-                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" className="rounded-circle z-depth-1" alt="Sample avatar" />
-                </div>
-                <h5 className="font-weight-bold mt-4 mb-3">Maria Smith</h5>
-                <p className="text-uppercase blue-text"><strong>Photographer</strong></p>
-                <p className="grey-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                  anim est fugiat nulla id eu laborum.</p>
-                <ul className="list-unstyled mb-0">
-                  <a className="p-2 fa-lg fb-ic">
-                    <i className="fab fa-facebook-f blue-text"> </i>
-                  </a>
-                  <a className="p-2 fa-lg ins-ic">
-                    <i className="fab fa-instagram blue-text"> </i>
-                  </a>
-                  <a className="p-2 fa-lg ins-ic">
-                    <i className="fab fa-dribbble blue-text"> </i>
-                  </a>
-                </ul>
-              </div>
-              <div className="col-lg-3 col-md-6">
-                <div className="avatar mx-auto">
-                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" className="rounded-circle z-depth-1" alt="Sample avatar" />
-                </div>
-                <h5 className="font-weight-bold mt-4 mb-3">Tom Adams</h5>
-                <p className="text-uppercase blue-text"><strong>Backend developer</strong></p>
-                <p className="grey-text">Perspiciatis repellendus ad odit consequuntur, eveniet earum nisi qui consectetur totam
-                  officia voluptates perferendis voluptatibus aut.</p>
-                <ul className="list-unstyled mb-0">
-                  <a className="p-2 fa-lg fb-ic">
-                    <i className="fab fa-facebook-f blue-text"> </i>
-                  </a>
-                  <a className="p-2 fa-lg ins-ic">
-                    <i className="fab fa-github blue-text"> </i>
-                  </a>
-                </ul>
-              </div>
-            </div>
-          );
+        
+        <p className="grey-text w-responsive mx-auto mb-5">
+        {t('team')}
+
+        </p>
+        <MDBRow className="text-md-left">
+          <MDBCol lg="6" md="12" className="mb-5">
+            <MDBCol md="4" lg="6" className="float-left">
+              <MDBCardImage
+                src={emanPic}
+                className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
+                tag="img"
+                alt="Sample avatar"
+
+              />
+            </MDBCol>
+            <MDBCol md="8" lg="6" className="float-right">
+              <h4 className="font-weight-bold mb-3"> {t('team_eman')}</h4>
+              <h6 className="font-weight-bold grey-text mb-3">
+              {t('team_eman_position')}
+
+              </h6>
+              <p className="grey-text">
+              {t('team_eman_details')}
+
+              </p>
+              <a href="#!" className="p-2 fa-lg fb-ic">
+                <MDBIcon fab icon="facebook-f" />
+              </a>
+              <a href="#!" className="p-2 fa-lg tw-ic">
+                <MDBIcon fab icon="twitter" />
+              </a>
+              <a href="#!" className="p-2 fa-lg linkedin-ic">
+                <MDBIcon fab icon="linkedin" />
+              </a>
+            </MDBCol>
+          </MDBCol>
+
+          <MDBCol lg="6" md="12" className="mb-5">
+            <MDBCol md="4" lg="6" className="float-left">
+              <MDBCardImage
+                src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg"
+                className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
+                tag="img"
+                alt="Sample avatar"
+              />
+            </MDBCol>
+            <MDBCol md="8" lg="6" className="float-right">
+              <h4 className="font-weight-bold mb-3">Maria Kate</h4>
+              <h6 className="font-weight-bold grey-text mb-3">
+                Photographer
+              </h6>
+              <p className="grey-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+                eos id officiis hic tenetur.
+              </p>
+              <a href="#!" className="p-2 fa-lg fb-ic">
+                <MDBIcon fab icon="facebook-f" />
+              </a>
+              <a href="#!" className="p-2 fa-lg yt-ic">
+                <MDBIcon fab icon="youtube" />
+              </a>
+              <a href="#!" className="p-2 fa-lg ins-ic">
+                <MDBIcon fab icon="instagram" />
+              </a>
+            </MDBCol>
+          </MDBCol>
+
+          <MDBCol lg="6" md="12" className="mb-5">
+            <MDBCol md="4" lg="6" className="float-left">
+              <MDBCardImage
+                src="https://mdbootstrap.com/img/Photos/Avatars/img%20(26).jpg"
+                className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
+                tag="img"
+                alt="Sample avatar"
+              />
+            </MDBCol>
+            <MDBCol md="8" lg="6" className="float-right">
+              <h4 className="font-weight-bold mb-3">Anna Deynah</h4>
+              <h6 className="font-weight-bold grey-text mb-3">
+                Web Developer
+              </h6>
+              <p className="grey-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+                eos id officiis hic tenetur.
+              </p>
+              <a href="#!" className="p-2 fa-lg fb-ic">
+                <MDBIcon fab icon="facebook-f" />
+              </a>
+              <a href="#!" className="p-2 fa-lg tw-ic">
+                <MDBIcon fab icon="twitter" />
+              </a>
+              <a href="#!" className="p-2 fa-lg github-ic">
+                <MDBIcon fab icon="github" />
+              </a>
+            </MDBCol>
+          </MDBCol>
+
+          <MDBCol lg="6" md="12" className="mb-5">
+            <MDBCol md="4" lg="6" className="float-left">
+              <MDBCardImage
+                src="https://mdbootstrap.com/img/Photos/Avatars/img%20(29).jpg"
+                className="mx-auto mb-md-0 mb-4 rounded z-depth-1 img-fluid"
+                tag="img"
+                alt="Sample avatar"
+              />
+            </MDBCol>
+            <MDBCol md="8" lg="6" className="float-right">
+              <h4 className="font-weight-bold mb-3">Sarah Melyah</h4>
+              <h6 className="font-weight-bold grey-text mb-3">
+                Front-end Developer
+              </h6>
+              <p className="grey-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+                eos id officiis hic tenetur.
+              </p>
+              <a href="#!" className="p-2 fa-lg gplus-ic">
+                <MDBIcon fab icon="google-plus-g" />
+              </a>
+              <a href="#!" className="p-2 fa-lg li-ic">
+                <MDBIcon fab icon="linkedin-in" />
+              </a>
+              <a href="#!" className="p-2 fa-lg email-ic">
+                <MDBIcon icon="envelope" />
+              </a>
+            </MDBCol>
+          </MDBCol>
+        </MDBRow>
+    
+    
+  
+    
+    </div>
+  
+         );
 }
 
 export default Team;

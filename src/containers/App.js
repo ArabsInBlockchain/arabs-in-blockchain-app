@@ -6,20 +6,21 @@ import {
     BrowserRouter as Router
 } from 'react-router-dom'
 
+import './VideoBackgroundPage.css';
+
 import routes from '../routes'
 import Localizer from './Localizer'
 import AppNavbar from '../components/AppNavbar'
 import AppFooter from '../components/AppFooter'
-
 const App = props => (
-         <div className='flyout' style={{paddingTop: "80px"}}>
-        <Router>
+      <div id='videobackground'>
+         <Router>
             <Localizer>
                 {props.uiTranslationsLoaded &&
                     <div>
                         <AppNavbar />
 
-                        <div className="container">
+                        <div className="">
                             <main id="main" role="main">
                                 <Switch>
                                     {routes.map((route, index) => (
@@ -34,14 +35,18 @@ const App = props => (
                             </main>
                         </div>
 
-                        <AppFooter />
+                       
                     </div>
                 }
             </Localizer>
         </Router>
-    </div>
-)
 
-export default connect(
-    state => ({ uiTranslationsLoaded: state.l10n.uiTranslationsLoaded })
-)(App)
+   
+        <AppFooter />
+      </div>
+    )
+ 
+
+    export default connect(
+      state => ({ uiTranslationsLoaded: state.l10n.uiTranslationsLoaded })
+  )(App)
