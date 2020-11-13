@@ -47,7 +47,7 @@ const Intro = () => {
           <h4 className='subtext-header mt-2 mb-4'>
          {t('cover_motivation_desc')}
           </h4>
-          <MDBBtn outline rounded color='white' href="https://discord.gg/DNTc7tjMBr">
+          <MDBBtn outline rounded color='white' href="https://discord.gg/DNTc7tjMBr"    target="_blank">
 
             <MDBIcon icon='hands-helping' />   {t('menu_join')}
           </MDBBtn>

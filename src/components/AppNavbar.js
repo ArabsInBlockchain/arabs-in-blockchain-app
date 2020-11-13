@@ -147,23 +147,23 @@ class AppNavbar extends Component {
                         </MDBNavbarNav>
                         <MDBNavbarNav right>
                             <MDBNavItem>
-                                <a href='https://www.facebook.com/Arabsinblockchain'>
+                                <a href='https://www.facebook.com/Arabsinblockchain'    target="_blank">
                                     <MDBIcon fab icon='facebook' className="white-text pr-3"/>
                                 </a>
                             </MDBNavItem>
 
                             <MDBNavItem>
-                                <a href='https://twitter.com/ArabsInBC'>
+                                <a href='https://twitter.com/ArabsInBC'   target="_blank"  >
                                     <MDBIcon fab icon='twitter' className="white-text pr-3" />
                                 </a>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <a href='https://discord.gg/DNTc7tjMBr'>
+                                <a href='https://discord.gg/DNTc7tjMBr'    target="_blank">
                                     <MDBIcon fab icon='discord' className="white-text pr-3"/>
                                 </a>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <a href='https://www.youtube.com/channel/UC_5orftfcZkLNn5LmIPodAA/ ' >
+                                <a href='https://www.youtube.com/channel/UC_5orftfcZkLNn5LmIPodAA/ '   target="_blank" >
                                     <MDBIcon fab icon='youtube' className="white-text pr-3" />
                                 </a>
                             </MDBNavItem>

@@ -45,15 +45,15 @@ const Activities = () => {
             <p>
             {t('rec_activity_by')}
 
-            <span>  <a href="https://www.linkedin.com/in/emanherawy/">
+            <span>  <a href="https://www.linkedin.com/in/emanherawy/"    target="_blank">
                 <strong>Eman Herawy
                 </strong>
               </a>,</span>
-           <span>   <a href="https://www.facebook.com/hassanimam">
+           <span>   <a href="https://www.facebook.com/hassanimam"   target="_blank">
                 <strong>Hassan Imam
                 </strong>
               </a> ,</span>
-          <span>    <a href="https://twitter.com/MohamedFFouda">
+          <span>    <a href="https://twitter.com/MohamedFFouda"   target="_blank">
                 <strong>Mohamed Fouda</strong>
               </a></span>
               , 29 Nov 2020
@@ -62,7 +62,7 @@ const Activities = () => {
               color="pink"
               size="md"
               href="https://docs.google.com/document/d/1DeuKRszKv6fsQvhV7tuUGbWKG38yxwa0gvrzKQba9CM/edit?usp=sharing"
-              className="mb-lg-0 mb-4 waves-light"
+              target="_blank"  className="mb-lg-0 mb-4 waves-light"
             > 
                                  {t('more')}
 
@@ -91,7 +91,7 @@ const Activities = () => {
             <p>
             {t('rec_activity_by')}
 
-              <a href="https://www.linkedin.com/in/emanherawy/">
+              <a href="https://www.linkedin.com/in/emanherawy/"    target="_blank">
                 <strong>Eman Herawy
                 </strong>
               </a>
@@ -147,13 +147,13 @@ const Activities = () => {
             <p>
             {t('rec_activity_by')}
 
-              <a href="https://crowdin.com/project/ethereumfoundation/activity_stream">
+              <a href="https://crowdin.com/project/ethereumfoundation/activity_stream"    target="_blank">
                 <strong>                {t('rec_activity_community')}
 The Community
                 </strong>
               </a>
             </p>
-            <MDBBtn color="indigo" size="md" className="waves-light " href="https://ethereum.org/en/contributing/translation-program/">
+            <MDBBtn color="indigo" size="md" className="waves-light " href="https://ethereum.org/en/contributing/translation-program/"    target="_blank">
             {t('more')}
 
             </MDBBtn>

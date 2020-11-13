@@ -41,13 +41,13 @@ const Team = () => {
               {t('team_eman_details')}
 
               </p>
-              <a href="https://www.facebook.com/eman.herawy/" className="p-2 fa-lg fb-ic">
+              <a href="https://www.facebook.com/eman.herawy/"    target="_blank" className="p-2 fa-lg fb-ic">
                 <MDBIcon fab icon="facebook-f" />
               </a>
-              <a href="https://www.linkedin.com/in/emanherawy/" className="p-2 fa-lg tw-ic">
+              <a href="https://www.linkedin.com/in/emanherawy/"    target="_blank" className="p-2 fa-lg tw-ic">
                 <MDBIcon fab icon="twitter" />
               </a>
-              <a href="https://www.linkedin.com/in/emanherawy/" className="p-2 fa-lg linkedin-ic">
+              <a href="https://www.linkedin.com/in/emanherawy/"    target="_blank" className="p-2 fa-lg linkedin-ic">
                 <MDBIcon fab icon="linkedin" />
               </a>
             </MDBCol>
@@ -72,10 +72,10 @@ const Team = () => {
               {t('team_hassan_details')}
 
               </p>
-              <a href="https://www.facebook.com/hassanimam/" className="p-2 fa-lg fb-ic">
+              <a href="https://www.facebook.com/hassanimam/"    target="_blank" className="p-2 fa-lg fb-ic">
                 <MDBIcon fab icon="facebook-f" />
               </a>
-              <a href="https://twitter.com/EngHassan" className="p-2 fa-lg tw-ic">
+              <a href="https://twitter.com/EngHassan"    target="_blank" className="p-2 fa-lg tw-ic">
                 <MDBIcon fab icon="twitter" />
               </a>
               <a href="#!" className="p-2 fa-lg linkedin-ic">
@@ -103,10 +103,10 @@ const Team = () => {
               {t('team_M_Fouda_details')}
 
               </p>
-              <a href="https://www.facebook.com/mohamed.fatouh.7/" className="p-2 fa-lg fb-ic">
+              <a href="https://www.facebook.com/mohamed.fatouh.7/"    target="_blank" className="p-2 fa-lg fb-ic">
                 <MDBIcon fab icon="facebook-f" />
               </a>
-              <a href="https://twitter.com/MohamedFFouda" className="p-2 fa-lg tw-ic">
+              <a href="https://twitter.com/MohamedFFouda"    target="_blank" className="p-2 fa-lg tw-ic">
                 <MDBIcon fab icon="twitter" />
               </a>
               <a href="#!" className="p-2 fa-lg linkedin-ic">
