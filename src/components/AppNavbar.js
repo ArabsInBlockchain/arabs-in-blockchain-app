@@ -6,6 +6,8 @@ import {
     MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon, MDBContainer
 } from "mdbreact";
 import logo from '../logo.svg'
+// import logo from '../assets/img/arabs_in_bc.png';
+
 import { t } from '../services/i18n'
 import { locales } from '../config/i18n'
 import LocalizedLink from '../containers/LocalizedLink'
@@ -37,13 +39,13 @@ class AppNavbar extends Component {
 
                     <MDBNavbarBrand>
                         <LocalizedLink to="/" className="navbar-brand">
-                            <img
+                            {/* <img
                                 src={logo}
                                 width="30"
                                 height="30"
                                 className="d-inline-block align-top"
                                 alt={t('app_name')}
-                            />
+                            /> */}
 
                         </LocalizedLink>
                         <strong className="white-text">  {t('app_name')}</strong>
@@ -145,19 +147,25 @@ class AppNavbar extends Component {
                         </MDBNavbarNav>
                         <MDBNavbarNav right>
                             <MDBNavItem>
-                                <LocalizedLink link to='!#'>
-                                    <MDBIcon fab icon='facebook' />
-                                </LocalizedLink>
+                                <a href='https://www.facebook.com/Arabsinblockchain'>
+                                    <MDBIcon fab icon='facebook' className="white-text pr-3"/>
+                                </a>
+                            </MDBNavItem>
+
+                            <MDBNavItem>
+                                <a href='https://twitter.com/ArabsInBC'>
+                                    <MDBIcon fab icon='twitter' className="white-text pr-3" />
+                                </a>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <LocalizedLink link to='!#'>
-                                    <MDBIcon fab icon='twitter' />
-                                </LocalizedLink>
+                                <a href='https://discord.gg/DNTc7tjMBr'>
+                                    <MDBIcon fab icon='discord' className="white-text pr-3"/>
+                                </a>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <LocalizedLink link to='!#'>
-                                    <MDBIcon fab icon='instagram' />
-                                </LocalizedLink>
+                                <a href='https://www.youtube.com/channel/UC_5orftfcZkLNn5LmIPodAA/ ' >
+                                    <MDBIcon fab icon='youtube' className="white-text pr-3" />
+                                </a>
                             </MDBNavItem>
                         </MDBNavbarNav>
                     </MDBCollapse>

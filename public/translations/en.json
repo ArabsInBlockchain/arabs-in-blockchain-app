@@ -52,12 +52,15 @@
         "landing_keep_in_touch_message_pholder":"Tell us your thoughts and feelings...",
         "landing_keep_in_touch_message_send": "Send Message",
 
-        "team": "Team",
+        "team": "Community main contributors",
 
         "team_eman": "Eman Herawy",
-        "team_eman_position": "FOUNDER",
-        "team_eman_details": "Blockchain full stack developer . Mentor & Reviewer @Udacity, Devcon 5 scholar alumni @ethereum foundation,Truffle University alumni & MSc in Cloud computing networks.",
-        
+            "team_eman_details": "Blockchain full stack developer . Mentor & Reviewer @Udacity, Devcon 5 scholar alumni @ethereum foundation,Truffle University alumni & MSc in Cloud computing networks.",
+            "team_hassan": "Hassan Imam",
+            "team_hassan_details": "Researcher in Blockchain social impact  ",  
+
+            "team_M_Fouda": "Mohamed Fouda",
+            "team_M_Fouda_details": "Partner @volt_cap. Engineer PhD @NorthwesternU.",  
         "rec_activity_webinar": "Webinars ",
         "rec_activity_webinar_name": "The open doors",
         "rec_activity_webinar_desc": "Series of webinars to explain blockchain by use cases for Arabs. It comes in two flavours; explaining blockchain from business perspective as well as technical perspective to provide full overview of blockchain and help community to grow faster.        ",

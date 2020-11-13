@@ -2,6 +2,7 @@ import React from "react";
 import { MDBMask,MDBView,MDBBtn,MDBAnimation, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBCardTitle, MDBCardImage, MDBCardBody, MDBCardText } from "mdbreact";
 import { t } from '../services/i18n'
 const intro = require('../assets/img/intro.gif')
+const logo = require('../assets/img/arabs_in_bc.png')
 const Intro = () => {
   return (
 
@@ -26,6 +27,12 @@ const Intro = () => {
     >
       <MDBRow>
         <MDBCol md='12' className='mb-4 white-text text-center'>
+                                    {/* <img
+                                src={logo}
+                               
+                                className="d-inline-block align-top"
+                                alt={t('app_name')}
+                            /> */}
           <h3 className='display-3 font-weight-bold mb-0 pt-md-5'>
           {t('app_name')}
           </h3>
@@ -40,7 +47,8 @@ const Intro = () => {
           <h4 className='subtext-header mt-2 mb-4'>
          {t('cover_motivation_desc')}
           </h4>
-          <MDBBtn outline rounded color='white'>
+          <MDBBtn outline rounded color='white' href="https://discord.gg/DNTc7tjMBr">
+
             <MDBIcon icon='hands-helping' />   {t('menu_join')}
           </MDBBtn>
         </MDBCol>

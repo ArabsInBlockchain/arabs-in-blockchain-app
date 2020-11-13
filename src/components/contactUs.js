@@ -64,7 +64,7 @@ const ContactPage = () => {
             
             <li>
               <MDBIcon icon="envelope" size="2x" className="purple-text mt-4" />
-              <p>contact@example.com</p>
+              <p>arabsinblockchain@gmail.com</p>
             </li>
           </ul>
         </MDBCol>

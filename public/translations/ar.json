@@ -53,11 +53,13 @@
        "landing_keep_in_touch_message_pholder":"أخبرنا بأفكارك ومشاعرك ...",
        "landing_keep_in_touch_message_send": "أرسل الرسالة",
           
-       "team": "فريق العمل",
+       "team": "المساهمون الرئيسيون",
        "team_eman": "إيمان الهراوي",
-       "team_eman_position": "مؤسس",
-       "team_eman_details": "Blockchain full stack developer . Mentor & Reviewer @Udacity, Devcon 5 scholar alumni @ethereum foundation,Truffle University alumni & MSc in Cloud computing networks.",
-     
+        "team_eman_details": "Blockchain full stack developer . Mentor & Reviewer @Udacity, Devcon 5 scholar alumni @ethereum foundation,Truffle University alumni & MSc in Cloud computing networks.",
+       "team_hassan": "حسن إمام",
+        "team_hassan_details": "باحث في مجال البلوكتشين وعلاقتها بالمجتمع.",
+        "team_M_Fouda": "محمد فودة",
+        "team_M_Fouda_details": "Partner @volt_cap. Engineer PhD @NorthwesternU.",  
        "rec_activity_webinar": "ندوات عبر الإنترنت",
        "rec_activity_webinar_name": "الأبواب المفتوحة",
         "rec_activity_webinar_desc": "سلسلة من الندوات عبر الإنترنت لشرح البلوك تشين من خلال حالات الاستخدام للعرب. تقدم على طريقتين؛ شرح البلوك تشين من منظور الأعمال ومن المنظور التقني لتقديم نظرة عامة كاملة عن البلوك تشين ومساعدة المجتمع على النمو بشكل أسرع.        ",
