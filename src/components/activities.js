@@ -56,7 +56,7 @@ const Activities = () => {
           <span>    <a href="https://twitter.com/MohamedFFouda"   target="_blank">
                 <strong>Mohamed Fouda</strong>
               </a></span>
-              , 29 Nov 2020
+              , 02 Jan 2021
             </p>
             <MDBBtn
               color="pink"
