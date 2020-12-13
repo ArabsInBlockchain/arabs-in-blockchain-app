@@ -1,23 +1,27 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { Link , BrowserRouter as Router } from 'react-router-dom'
 
 import {
     MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse, MDBFormInline,
     MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon, MDBContainer
 } from "mdbreact";
-import logo from '../logo.svg'
+// import logo from '../logo.svg'
 // import logo from '../assets/img/arabs_in_bc.png';
 
-import { t } from '../services/i18n'
+import { withTranslation } from 'react-i18next';
 import { locales } from '../config/i18n'
-import LocalizedLink from '../containers/LocalizedLink'
-
-class AppNavbar extends Component {
+ 
+class Navbar extends Component {
     constructor(props) {
         super(props)
 
         this.state = { isOpen: false }
     }
+     changeLanguage = lng => {
+        this.props.i18n.changeLanguage(lng)
+        document.dir =this.props.i18n.dir()
+
+      };
     componentDidMount() {
         document.querySelector('nav').style.height = '65px';
     }
@@ -31,14 +35,17 @@ class AppNavbar extends Component {
 
     render() {
         const navStyle = { marginTop: '1rem' };
+        console.log(this.props, 'this.props');
+        const { t } = this.props;
 
         return (
+            <Router>
             <MDBNavbar color='secondary-color' style={navStyle} dark scrolling expand='md' transparent  fixed='top' className="font-weight-bold py-4 px-2 mb-4 justify-content-center">
                 <MDBContainer>
 
 
                     <MDBNavbarBrand>
-                        <LocalizedLink to="/" className="navbar-brand">
+                        <Link to="/" className="navbar-brand">
                             {/* <img
                                 src={logo}
                                 width="30"
@@ -47,7 +54,7 @@ class AppNavbar extends Component {
                                 alt={t('app_name')}
                             /> */}
 
-                        </LocalizedLink>
+                        </Link>
                         <strong className="white-text">  {t('app_name')}</strong>
                     </MDBNavbarBrand>
                     <MDBNavbarToggler onClick={this.toggle} />
@@ -59,27 +66,27 @@ class AppNavbar extends Component {
                                         <div className="d-none d-md-inline">{t('menu_service')}</div>
                                     </MDBDropdownToggle>
                                     <MDBDropdownMenu className="dropdown-default">
-                                        <MDBDropdownItem href="#!">   <LocalizedLink to="/activity" className="navLink">
+                                        <MDBDropdownItem href="#!">   <Link to="/activity" className="navLink">
                                             {t('menu_activity')}
-                                        </LocalizedLink></MDBDropdownItem>
-                                        <MDBDropdownItem href="#!">   <LocalizedLink to="/contribution" className="navLink">
+                                        </Link></MDBDropdownItem>
+                                        <MDBDropdownItem href="#!">   <Link to="/contribution" className="navLink">
                                             {t('menu_contribution')}
-                                        </LocalizedLink></MDBDropdownItem>
-                                        <MDBDropdownItem href="#!">   <LocalizedLink to="/advisory" className="navLink">
+                                        </Link></MDBDropdownItem>
+                                        <MDBDropdownItem href="#!">   <Link to="/advisory" className="navLink">
                                             {t('menu_advisory')}
-                                        </LocalizedLink></MDBDropdownItem>
-                                        <MDBDropdownItem href="#!">       <LocalizedLink to="/research" className="navLink">
+                                        </Link></MDBDropdownItem>
+                                        <MDBDropdownItem href="#!">       <Link to="/research" className="navLink">
                                             {t('menu_researchHub')}
-                                        </LocalizedLink></MDBDropdownItem>
+                                        </Link></MDBDropdownItem>
                                     </MDBDropdownMenu>
                                 </MDBDropdown>
 
                             </MDBNavItem>
 
                             <MDBNavItem >
-                                <LocalizedLink to="/partner" className="nav-link">
+                                <Link to="/partner" className="nav-link">
                                     {t('menu_partner')}
-                                </LocalizedLink>
+                                </Link>
                             </MDBNavItem>
                             <MDBNavItem active>
                                 <MDBDropdown>
@@ -87,21 +94,21 @@ class AppNavbar extends Component {
                                         <div className="d-none d-md-inline">  {t('menu_about')}</div>
                                     </MDBDropdownToggle>
                                     <MDBDropdownMenu className="dropdown-default">
-                                        <MDBDropdownItem >     <LocalizedLink to="/about" className="navLink">
+                                        <MDBDropdownItem >     <Link to="/about" className="navLink">
                                             {t('menu_about')}
-                                        </LocalizedLink></MDBDropdownItem>
-                                        <MDBDropdownItem >        <LocalizedLink to="/join" className="navLink">
+                                        </Link></MDBDropdownItem>
+                                        <MDBDropdownItem >        <Link to="/join" className="navLink">
                                             {t('menu_join')}
-                                        </LocalizedLink></MDBDropdownItem>
-                                        <MDBDropdownItem href="#!">  <LocalizedLink to="/subscribe" className="navLink">
+                                        </Link></MDBDropdownItem>
+                                        <MDBDropdownItem href="#!">  <Link to="/subscribe" className="navLink">
                                             {t('menu_subscribe')}
-                                        </LocalizedLink></MDBDropdownItem>
-                                        <MDBDropdownItem href="#!">      <LocalizedLink to="/contact" className="navLink">
+                                        </Link></MDBDropdownItem>
+                                        <MDBDropdownItem href="#!">      <Link to="/contact" className="navLink">
                                             {t('menu_contactUs')}
-                                        </LocalizedLink></MDBDropdownItem>
-                                        <MDBDropdownItem href="#!">     <LocalizedLink to="/press" className="navLink">
+                                        </Link></MDBDropdownItem>
+                                        <MDBDropdownItem href="#!">     <Link to="/press" className="navLink">
                                             {t('menu_press')}
-                                        </LocalizedLink></MDBDropdownItem>
+                                        </Link></MDBDropdownItem>
                                     </MDBDropdownMenu>
                                 </MDBDropdown>
 
@@ -129,18 +136,13 @@ class AppNavbar extends Component {
                                         {/* {t('language')} */}
                                     </MDBDropdownToggle>
                                     <MDBDropdownMenu>
-                                        {locales.map(locale => (
-                                            <MDBDropdownItem key={locale.code}>
+                                    {locales.map(locale => (
+                  <MDBDropdownItem key={locale.code} onClick={() => this.changeLanguage(locale.code)}>
+                    {locale.name}
 
-                                                <LocalizedLink
-
-                                                    to={`/${locale.code}`}
-                                                    className="dropdown-item"
-                                                >
-                                                    {locale.name}
-                                                </LocalizedLink>
-                                            </MDBDropdownItem>
-                                        ))}
+                  </MDBDropdownItem>
+                ))}
+                                        
                                     </MDBDropdownMenu>
                                 </MDBDropdown>
                             </MDBNavItem>
@@ -158,6 +160,11 @@ class AppNavbar extends Component {
                                 </a>
                             </MDBNavItem>
                             <MDBNavItem>
+                                <a href='https://medium.com/arabs-in-blockchain'   target="_blank"  >
+                                    <MDBIcon fab icon='medium' className="white-text pr-3" />
+                                </a>
+                            </MDBNavItem>
+                            <MDBNavItem>
                                 <a href='https://discord.gg/DNTc7tjMBr'    target="_blank">
                                     <MDBIcon fab icon='discord' className="white-text pr-3"/>
                                 </a>
@@ -171,9 +178,10 @@ class AppNavbar extends Component {
                     </MDBCollapse>
                 </MDBContainer>
             </MDBNavbar>
-
+            </Router>
         );
     }
 }
 
+const AppNavbar = withTranslation()(Navbar)
 export default AppNavbar

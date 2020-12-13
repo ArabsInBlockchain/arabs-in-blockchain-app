@@ -1,11 +1,12 @@
 import React from "react";
 import { MDBMask,MDBView,MDBBtn,MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBCardTitle, MDBCardImage, MDBCardBody, MDBCard } from "mdbreact";
-import LocalizedLink from './LocalizedLink'
-import { t } from '../services/i18n';
+import { useTranslation } from 'react-i18next';
+
 import emanPic from '../assets/img/EmanInHongKong.jpg'
 import hassanPic from '../assets/img/hassan.png'
 import mFoudaPic from '../assets/img/m_Fouda.jpeg'
 const Team = () => {
+  const { t } = useTranslation();
     return (
       <div className="container">
 

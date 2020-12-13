@@ -1,10 +1,9 @@
 import { combineReducers } from 'redux'
 
-import l10n from './l10n'
- 
-
-const movieApp = combineReducers({
-    l10n
+const MocReducer={}
+export default combineReducers({
 })
 
-export default movieApp
+
+ 
+

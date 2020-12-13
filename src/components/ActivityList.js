@@ -12,16 +12,18 @@ import {
   MDBAnimation,
   
 } from 'mdbreact';
-import LocalizedLink from '../containers/LocalizedLink'
-import { t } from '../services/i18n';
+import { Link } from 'react-router-dom'
+import { withTranslation } from 'react-i18next';
 import  mentorShipPic from '../assets/img/mentor.gif' 
 import  arabicPic from '../assets/img/glob.gif' 
 import  WebinarShipPic from '../assets/img/webinar.gif' 
 import  advisoryPic from '../assets/img/advisory.gif' 
-class ActivityList extends React.Component {
+class Activities extends React.Component {
   scrollToTop = () => window.scrollTo(0, 0);
 
   render() {
+    console.log(this.props, 'this.props');
+    const { t } = this.props;
     return (
       
     <div className="container">
@@ -58,7 +60,7 @@ class ActivityList extends React.Component {
             {t('activity_events_details')}
             
             </MDBCardText>
-            <LocalizedLink
+            <Link
               tag='button'
               to='/css'
               color='mdb-color'
@@ -66,7 +68,7 @@ class ActivityList extends React.Component {
               onClick={this.scrollToTop}
             >
               {t('more')}
-            </LocalizedLink>
+            </Link>
           </MDBCardBody>
         </MDBCard>
       </MDBAnimation>
@@ -89,7 +91,7 @@ class ActivityList extends React.Component {
             {t('activity_mentorship_details')}
             </MDBCardText>
 
-            <LocalizedLink
+            <Link
               tag='button'
               to='/advanced'
               color='mdb-color'
@@ -97,7 +99,7 @@ class ActivityList extends React.Component {
               onClick={this.scrollToTop}
             >
               {t('more')}
-            </LocalizedLink>
+            </Link>
           </MDBCardBody>
         </MDBCard>
       </MDBAnimation>
@@ -122,7 +124,7 @@ class ActivityList extends React.Component {
             {t('activity_content_details')}
             </MDBCardText>
 
-            <LocalizedLink
+            <Link
               tag='button'
               to='/navigation'
               color='mdb-color'
@@ -130,7 +132,7 @@ class ActivityList extends React.Component {
               onClick={this.scrollToTop}
             >
               {t('more')}
-            </LocalizedLink>
+            </Link>
           </MDBCardBody>
         </MDBCard>
       </MDBAnimation>
@@ -152,7 +154,7 @@ class ActivityList extends React.Component {
             {t('activity_advisory_details')}
             </MDBCardText>
 
-            <LocalizedLink
+            <Link
               tag='button'
               to='/navigation'
               color='mdb-color'
@@ -160,7 +162,7 @@ class ActivityList extends React.Component {
               onClick={this.scrollToTop}
             >
               {t('more')}
-            </LocalizedLink>
+            </Link>
           </MDBCardBody>
         </MDBCard>
       </MDBAnimation>
@@ -176,5 +178,5 @@ class ActivityList extends React.Component {
     );
   }
 }
-
+const ActivityList = withTranslation()(Activities)
 export default ActivityList;

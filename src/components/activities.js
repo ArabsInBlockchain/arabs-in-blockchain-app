@@ -1,10 +1,11 @@
 import React from "react";
 import {  MDBRow, MDBCol, MDBMask, MDBIcon, MDBView, MDBBtn } from "mdbreact";
-import { t } from '../services/i18n'
-import { locales } from '../config/i18n'
-import  mentorShipPic from '../assets/img/consult.gif' 
+import { useTranslation } from 'react-i18next';
+ import  mentorShipPic from '../assets/img/consult.gif' 
  import  WebinarShipPic from '../assets/img/bony.gif' 
 const Activities = () => {
+  const { t } = useTranslation();
+
   return (
   <div className="container">
 
@@ -92,9 +93,12 @@ const Activities = () => {
             {t('rec_activity_by')}
 
               <a href="https://www.linkedin.com/in/emanherawy/"    target="_blank">
-                <strong>Eman Herawy
+                <strong>Eman Herawy 
                 </strong>
               </a>
+              <strong> Damu Winston, Rami ALDamati,ABDELFATAH MOUTTAQUI, & Mohamed Roushdy
+
+</strong>
              ,  02 Jan 2021
             </p>
             <MDBBtn color="indigo" size="md" className="waves-light ">
@@ -108,7 +112,7 @@ const Activities = () => {
                 src={mentorShipPic}
                 alt=""
               />
-              <a href="#!">
+              <a href="https://docs.google.com/document/d/1GfAfJ_I6DaegFemwApb49lNLTEsPVLsFCg-9XK5-gm4/edit?usp=sharing"  target="_blank">
                 <MDBMask overlay="white-slight" />
               </a>
             </MDBView>

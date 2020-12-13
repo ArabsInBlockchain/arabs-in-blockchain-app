@@ -1,8 +1,10 @@
 import React from "react";
 import {  MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
-import { t } from '../services/i18n'
+import { useTranslation } from 'react-i18next';
 
 const ContactPage = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="container">
         <hr className='my-5' />

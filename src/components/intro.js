@@ -1,9 +1,11 @@
 import React from "react";
 import { MDBMask,MDBView,MDBBtn,MDBAnimation, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBCardTitle, MDBCardImage, MDBCardBody, MDBCardText } from "mdbreact";
-import { t } from '../services/i18n'
+import { useTranslation } from 'react-i18next';
 const intro = require('../assets/img/intro.gif')
 const logo = require('../assets/img/arabs_in_bc.png')
 const Intro = () => {
+  const { t } = useTranslation();
+
   return (
 
     <MDBView>

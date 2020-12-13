@@ -1,0 +1,77 @@
+{
+      
+          "app_name": " العرب × بلوكتشين",
+          "more": "المزيد",
+          "menu_service": "خدماتنا",
+  
+          "menu_home": "الرئيسية",
+          "menu_search": "بحث ",
+          "menu_search-placeholder": "ابحث هنا",
+          "menu_activity": "اﻻنشطة",
+          "menu_rec_activity": "احدث اﻻنشطة",
+          "menu_rec_activity_desc": "احدث اﻻنشطة التى تجرى بواسطتنا او بواسطة  اى من مقدمى المحتوى العربى",
+  
+          "menu_contactUs": "اتصل بنا",
+          "menu_contribution": "اﻻسهامات العربية",
+          "menu_researchHub": "مركز اﻻبحاث العربي",
+          "menu_press": "اﻻخبار ",
+          "menu_about": "من نحن ",
+          "menu_advisory": "اﻻستشارات ",
+          "menu_partner": "شركاء النجاح",
+          "menu_subscribe": "تابعنا",
+          "menu_join": "اشترك معنا",
+          "activity_webinar": "ندوات عبر الإنترنت",
+          "activity_hack": "هاكاثون",
+          "activity_mentorship": "برنامج الإرشاد",
+          "activity_advisory": "استشارات",
+  
+          "activity_events": "فاعليات",
+          "activity_title": " الفاعليات",
+          "activity_advisory_details": "تقديم الخدمات الاستشارية من الخبراء العرب",
+          "activity_content_details": "دعم المحتوى العربي (فيديوهات ، مقالات ، دروس)",
+         "activity_mentorship_details": "تقديم برنامج إرشادي لدعم الفرق التي تبني مشاريع بتكنولوجيا البلوك تشين",
+         "activity_events_details": "تنظيم الأحداث (ندوات عبر الإنترنت ، وهاكاثون ، ولقاءات ، ومؤتمرات) باللغة العربية للتخفيف من حاجز اللغة وزيادة الوعي بالبلوك تشين في المجتمعات العربية",
+          
+          "team_title": " اﻻعضاء",
+  
+          
+          
+          
+            
+          "cover_motivation": "The motivation behind",
+          "cover_motivation_desc": "مظلة لكل العرب فى تكنولوجيا البلوك تشين",
+          "cover_motivation_details": "نحن ٢٢  دولة عربية؛ نتحدث نفس اللغة ونتشارك فى الكثير من التقاليد والعادات واﻻحداث التاريخية. لا تزال تقنية البلوك تشين في منطقة الشرق الأوسط وشمال إفريقيا في مراحلها الأولى ، ء ونموها مختلف من بلد لآخر.لذا  سيكون من المفيد جدًا العمل كمجتمع واحد بدلاً من العمل بشكل فردي وإعادة اختراع العجلة في كل بلد",
+  
+  
+  
+  
+          "landing_keep_in_touch": "راسلنا",
+          "landing_keep_in_touch_details": "إذا كنت ترغب في المساهمة ، فلا تتردد في التواصل معنا",
+          "landing_keep_in_touch_name": "اﻻسم",
+         "landing_keep_in_touch_email": "البريد اﻹلكتروني",
+         "landing_keep_in_touch_message": "موضوع الرسالة",
+         "landing_keep_in_touch_message_pholder":"أخبرنا بأفكارك ومشاعرك ...",
+         "landing_keep_in_touch_message_send": "أرسل الرسالة",
+            
+         "team": "المساهمون الرئيسيون",
+         "team_eman": "إيمان الهراوي",
+          "team_eman_details": "Blockchain full stack developer . Mentor & Reviewer @Udacity, Devcon 5 scholar alumni @ethereum foundation,Truffle University alumni & MSc in Cloud computing networks.",
+         "team_hassan": "حسن إمام",
+          "team_hassan_details": "باحث في مجال البلوكتشين وعلاقتها بالمجتمع.",
+          "team_M_Fouda": "محمد فودة",
+          "team_M_Fouda_details": "Partner @volt_cap. Engineer PhD @NorthwesternU.",  
+         "rec_activity_webinar": "ندوات عبر الإنترنت",
+         "rec_activity_webinar_name": "الأبواب المفتوحة",
+          "rec_activity_webinar_desc": "سلسلة من الندوات عبر الإنترنت لشرح البلوك تشين من خلال حالات الاستخدام للعرب. تقدم على طريقتين؛ شرح البلوك تشين من منظور الأعمال ومن المنظور التقني لتقديم نظرة عامة كاملة عن البلوك تشين ومساعدة المجتمع على النمو بشكل أسرع.        ",
+          "rec_activity_prog": "البرامج",
+          "rec_activity_prog_name": "برنامج الإرشاد الفردي",
+          "rec_activity_prog_desc": "برنامج للشركات الناشئة والطلاب الذين يعملون في مشاريع البلوك تشين ويحتاجون إلى بعض التوجيه.",
+          "rec_activity_content": "دعم المحتوي العربي",
+          "rec_activity_content_name": "برنامج ترجمة ايثريوم",
+          "rec_activity_content_desc": "مبادرة لجعل Ethereum.org في متناول الجميع ، بغض النظر عن جنسيتهم أو لغتهم. انضم إلى مجتمع الترجمة الخاص بنا لجعل هذه الرؤية حقيقة واقعة!",
+          "rec_activity_by": "بواسطة",
+          
+          "language": "اللغة",
+     
+          "footer_copyright": "حقوق النشر"
+      }   
